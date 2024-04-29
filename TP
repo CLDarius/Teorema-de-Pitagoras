@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{parskip}
+\bibliographystyle{plain}
+\title{Tema: EL TEOREMA DE PITÁGORAS}
+\author{Darío Choque L.}
+\date{25/04/24}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+El teorema de Pitágoras es uno de los resultados más conocidos y fundamentales en la geometría euclidiana. Establece una relación entre los lados de un triángulo rectángulo, que es un triángulo que contiene un ángulo recto (90 grados). El teorema de Pitágoras tiene aplicaciones en diversos campos, como la arquitectura, la física y la trigonometría.
+
+\section{Teorema de Pitágoras}
+\textbf{Teorema.} El teorema de Pitágoras establece que en un triángulo rectángulo, el cuadrado de la longitud de la hipotenusa ($c$) es igual a la suma de los cuadrados de las longitudes de los catetos ($a$ y $b$):
+
+\begin{equation}
+    c^2 = a^2 + b^2
+\end{equation}
+
+Donde $c$ es la hipotenusa y $a$ y $b$ son los catetos del triángulo rectángulo.
+
+\section{Demostración}
+
+Consideremos un triángulo rectángulo con catetos de longitud $a$ y $b$ y hipotenusa de longitud $c$. Construyamos cuatro copias de este triángulo de manera que formen un cuadrado de lado $c$ (ver Figura \ref{fig:pitagoras}).
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{pitágoras.png}
+    \caption{pitagoras}
+    \label{fig:pitagoras}
+\end{figure}
+
+
+El área total del cuadrado se puede calcular de dos maneras: sumando el área de los cuatro triángulos rectángulos más el área del cuadrado interno, o calculando el área del cuadrado grande.
+
+La primera forma nos da:
+\begin{equation*}
+    4 \cdot \left(\frac{1}{2}ab\right) + c^2 = 2ab + c^2.
+\end{equation*}
+
+La segunda forma nos da:
+\begin{equation*}
+    c^2.
+\end{equation*}
+
+Como ambas formas deben ser iguales, tenemos:
+\begin{equation*}
+    2ab + c^2 = c^2.
+\end{equation*}
+
+Al simplificar, se obtiene:
+\begin{equation*}
+    a^2 + b^2 = c^2.
+\end{equation*}
+
+Por lo tanto, se ha demostrado el teorema de Pitágoras.
+\begin{flushright}
+    \textbf{$\blacksquare$}
+\end{flushright}
+
+Existen diversas demostraciones del teorema de Pitágoras. A continuación, se presenta una demostración geométrica utilizando áreas.
+
+\section{Aplicaciones}
+
+El teorema de Pitágoras tiene aplicaciones en diversas áreas. Algunas de ellas incluyen:
+
+\begin{itemize}
+    \item Cálculo de distancias: El teorema de Pitágoras se utiliza para calcular la distancia entre dos puntos en un plano.
+    \item Resolución de problemas de navegación: El teorema de Pitágoras se utiliza en navegación para determinar la distancia entre dos puntos en un mapa.
+    \item Construcción de estructuras: El teorema de Pitágoras se utiliza en arquitectura y construcción para garantizar la estabilidad y precisión de las estructuras.
+\end{itemize}
+
+\section{Conclusiones}
+
+En resumen, el teorema de Pitágoras es un resultado fundamental en la geometría euclidiana. Establece una relación entre los lados de un triángulo rectángulo y es ampliamente utilizado en diversos campos, como la arquitectura, la física y la trigonometría. El teorema de Pitágoras se puede demostrar de varias formas, y en este documento se presentó una demostración geométrica utilizando áreas. Además, se exploraron algunas de las aplicaciones prácticas de este teorema en el cálculo de distancias, la navegación y la construcción de estructuras.
+
+\section{Bibliografía}
+
+\begin{thebibliography}{9}
+\bibitem{barbosa}
+Barbosa, J. R. (2014). \textit{Geometria analítica: Um tratamento vetorial}. Blucher.
+
+\end{thebibliography}
+
+\end{document}
